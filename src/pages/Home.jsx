@@ -60,9 +60,11 @@ function Home() {
         />
 
         <div className={styles.cta_middle}>
+        <div>
           <h2>Need our Help?</h2>
           <p>Get a quote from us for free and we&apos;ll see how we can get that dream project built.</p>
           <Button text={'Get Free Quote'} color={'primary'}  />
+        </div>
         </div>
       </div>
     </div>
