@@ -7,6 +7,10 @@
     z-index: 1;
 }
 
+.hero_content * {
+    color: white;
+}
+
 .hero_content{
     position: absolute;
     top: 10rem;
@@ -28,7 +32,6 @@
 }
 
 .hero_content div {
-    margin-top: 25px;
     display: flex;
     gap: 2em;
 }
@@ -106,7 +109,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        top: 50px;
+        top: 40px;
         margin: 0 auto;
         left: 50%;
         transform: translateX(-50%);
@@ -130,24 +133,86 @@
   
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 950px) {
     .hero_content{
-        top: 30px;
-      
+        top: 20px;
     }
 
-    /* hero title */
-    .hero_content > h1 {
-        
+      /* hero title */
+      .hero_content > h1 {
+        font-size: 2.4em;
+        margin-bottom: 5px;
+        padding: 0;
+        line-height: 40px;
     }
     /* hero subtitle */
     .hero_content > h3 {
-        
+        font-size: 1em;
+        max-width: 700px;
+        margin: 0;
+        padding: 0;
+        line-height: normal;
     }
 
     /* hero buttons div */
-    .hero_content div {
-       
+    .hero_content div button {
+       width: 125px;
+       height: 50px;
+       font-size: .9em;
+    }
+  }
+
+  @media only screen and (max-width: 675px) {
+
+    /* hero title */
+    .hero_content > h1 {
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+    }
+    /* hero subtitle */
+    .hero_content > h3 {
+        font-size: .7em;
+        max-width: 300px;
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+    }
+
+    /* hero buttons div */
+    .hero_content div button {
+       width: 125px;
+       height: 50px;
+       font-size: .9em;
+    }
+  
+  }
+
+
+  @media only screen and (max-width: 500px) {
+
+    /* hero title */
+    .hero_content > h1 {
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+    }
+    /* hero subtitle */
+    .hero_content > h3 {
+        font-size: .7em;
+        max-width: 300px;
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+    }
+
+    /* hero buttons div */
+    .hero_content div button {
+       width: 125px;
+       height: 50px;
+       font-size: .9em;
     }
   
   }

@@ -13,14 +13,14 @@
 .about h1 {
   line-height: 45px;
   letter-spacing: 0.8px;
-  font-size: 36px;
+  font-size: 2.2em;
   font-weight: 600;
   max-width: 800px;
 }
 
 .about p {
   line-height: 30px;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .about button {
@@ -30,4 +30,39 @@
 .flip {
   flex-direction: row-reverse;
   text-align: right;
+}
+
+@media only screen and (max-width: 1050px) {
+  .about h1{
+    font-size: 2em;
+  }
+  .about p{
+    font-size: .9em;
+  }
+
+  .about button{
+    font-size: 1em;
+  }
+
+  .about img {
+    max-width: 400px;
+    
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about div{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about img {
+    max-width: 300px;
+    
+  }
 }
