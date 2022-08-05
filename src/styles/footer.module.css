@@ -1,0 +1,63 @@
+.footer {
+  background-color: #211f1c;
+  width: 100%;
+
+}
+
+.footer_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6em;
+  padding: 2em 2em;
+  max-width: 1430px;
+  margin: 0 auto;
+  padding: 1.3em 2em;
+}
+
+.footer_list {
+  color: white;
+}
+
+.footer_list h3 {
+  font-size: 20px;
+}
+
+.footer_list .line {
+  width: 110%;
+  padding: 0.4em 0;
+  height: 2px;
+  border-top: 1px solid aqua;
+}
+
+.link_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact_item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact_item span {
+  display: flex;
+  flex-direction: column;
+}
+
+.watermark {
+  display: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-align: right;
+    color: white;
+    opacity: .75;
+    font-size: 1em;
+}
+
+.watermark a{
+    text-decoration: underline;
+}
