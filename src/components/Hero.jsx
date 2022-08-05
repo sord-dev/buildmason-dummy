@@ -1,16 +1,15 @@
 import React from 'react'
 import styles from '../styles/hero.module.css'
 
-function Hero({ imgUrl }) {
+function Hero({ imgUrl, title, subtitle }) {
   return (
     <div className={styles.hero}>
     <img src={imgUrl} alt="hero picture" />
 
     <div className={styles.hero_content}>
-      <h1>Fast and reliable contracting services</h1>
+      <h1>{title}</h1>
       <h3>
-        We value Hardy designs, committed work and fast delivery. Get a
-        quote today and have your dream house built within months.
+        {subtitle}
       </h3>
 
       <div>

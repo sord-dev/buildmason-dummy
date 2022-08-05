@@ -1,7 +1,6 @@
 .footer {
   background-color: #211f1c;
   width: 100%;
-
 }
 
 .footer_container {
@@ -15,6 +14,10 @@
 }
 
 .footer_list {
+  color: white;
+}
+
+.footer_list * {
   color: white;
 }
 

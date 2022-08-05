@@ -35,7 +35,7 @@
 
 .hero_content div button {
     background-color: #fca17d;
-    color: black;
+    color: #211F1C;
     font-weight: 600;
     border: none;
     height: 70px;
@@ -61,6 +61,7 @@
 .hero_content div button:last-child::after {
     content: "It's free!";
     font-weight: 600;
+    color: white;
     font-size: .7em;
 }
 

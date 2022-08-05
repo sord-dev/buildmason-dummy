@@ -12,6 +12,7 @@ import Testimonials from "../components/Testimonials";
 import heroImage from "../assets/herophotounedited.png";
 import aboutImage from "../assets/about-image.jpg";
 import servicesImage from "../assets/services_image.jpg";
+import Button from "../components/Button";
 
 
 //TODO
@@ -26,11 +27,15 @@ import servicesImage from "../assets/services_image.jpg";
 
 // add better content
 
+// RESONSIVENESS!!!
+
 
 function Home() {
   return (
     <div className={styles.home}>
-      <Hero imgUrl={heroImage} />
+
+
+      <Hero imgUrl={heroImage} title={"Fast and reliable contracting services"} subtitle={"We value Hardy designs, committed work and fast delivery. Get a quote today and have your dream house built within months."} />
 
       <div className={styles.container}>
         <ImageDesc
@@ -49,10 +54,16 @@ function Home() {
           content={
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  magna aliqua."
           }
-          ctaText={"Need Help?"}
+          ctaText={"What we Offer"}
           aboutImage={servicesImage}
           flip
         />
+
+        <div className={styles.cta_middle}>
+          <h2>Need our Help?</h2>
+          <p>Get a quote from us for free and we&apos;ll see how we can get that dream project built.</p>
+          <Button text={'Get Free Quote'} color={'primary'}  />
+        </div>
       </div>
     </div>
   );
