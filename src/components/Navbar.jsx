@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/navbar.module.css";
 import { Link } from "react-router-dom";
+import Button from "./Button";
 
 function Navbar() {
   return (
@@ -13,7 +14,7 @@ function Navbar() {
           <Link to={"/about"}>Who we are</Link>
           <Link to={"/contact"}>Contact</Link>
 
-          <button> Get a Quote </button>
+          <Button text={'Get a Quote'} color={'secondary'} />
         </div>
       </div>
     </div>
