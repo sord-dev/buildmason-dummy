@@ -2,32 +2,3 @@
     max-width: 980px;
     margin: 0 auto;
 }
-
-.about {
-    margin: 150px 0;
-    display: flex;
-    gap: 7px;
-}
-
-.about img {
-    max-width: 500px;
-    border-radius: 5px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.about h1 {
-    line-height: 45px;
-    letter-spacing: .8px;
-    font-size: 36px;
-    font-weight: 600;
-    max-width: 800px;
-}
-
-.about p {
-    line-height: 30px;
-    font-size: 16px;
-}
-
-.about button {
-    margin-top: 15px;
-}
