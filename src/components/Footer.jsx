@@ -76,10 +76,16 @@ function Footer() {
   return (
     <div className={styles.footer}>
       <div className={styles.footer_container}>
+
+      <div className={styles.footer_links}>
+      
         <FooterList title={"Services"} links={serviceLinks} />
         <FooterList title={"Who we are"} links={aboutLinks} />
         <FooterList title={"Areas Covered"} links={areas} />
         <FooterList title={"Contact"} links={contactLinks} />
+
+      </div>
+      
 
         <span className={styles.watermark}> Copyright &copy; 2022 - Buildmason All Rights Reserved, <a href="https://stackoverflow.com/questions/43768629/how-to-scale-large-font-awesome-icons-from-the-react-icons-package">Privicy Policy</a> </span>
       </div>
