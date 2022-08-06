@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import ErrorPage from "./pages/404";
-// import About from "./pages/About";
+import About from "./pages/About";
 import Home from "./pages/Home";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <Layout>
       <Routes>
         <Route path="/" index element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Layout>

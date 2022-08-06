@@ -140,15 +140,14 @@
 
       /* hero title */
       .hero_content > h1 {
-        font-size: 2.4em;
+        font-size: 56px;
         margin-bottom: 5px;
         padding: 0;
-        line-height: 40px;
+        line-height: 100%;
     }
     /* hero subtitle */
     .hero_content > h3 {
-        font-size: 1em;
-        max-width: 700px;
+        font-size: 17px;
         margin: 0;
         padding: 0;
         line-height: normal;
@@ -156,13 +155,13 @@
 
     /* hero buttons div */
     .hero_content div button {
-       width: 125px;
-       height: 50px;
-       font-size: .9em;
+       width: 200px;
+       height: 64px;
+       font-size: 17px;
     }
   }
 
-  @media only screen and (max-width: 675px) {
+  @media only screen and (max-width: 650px) {
 
     /* hero title */
     .hero_content > h1 {
@@ -192,16 +191,22 @@
 
   @media only screen and (max-width: 500px) {
 
+    .hero_content {
+        top: 24px;
+        gap: 10px;
+    }
+
     /* hero title */
     .hero_content > h1 {
-        font-size: 1em;
+        font-size: 22px;
+        width: max-content;
         margin: 0;
         padding: 0;
-        line-height: normal;
+        line-height: 110%;
     }
     /* hero subtitle */
     .hero_content > h3 {
-        font-size: .7em;
+        font-size: 14px;
         max-width: 300px;
         margin: 0;
         padding: 0;
@@ -210,9 +215,13 @@
 
     /* hero buttons div */
     .hero_content div button {
-       width: 125px;
-       height: 50px;
-       font-size: .9em;
+       width: 110px;
+       height: 40px;
+       font-size: 14px;
+    }
+
+    .hero_content img {
+        height: 250px;
     }
   
   }

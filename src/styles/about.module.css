@@ -1,0 +1,60 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.image {
+  background-image: linear-gradient(#fca17d6a, #fca17da3),
+    url("../assets/about-hero.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 150px;
+}
+
+.content {
+  font-weight: 100;
+  font-size: 48px;
+}
+
+.content h1 {
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+.headDesc {
+  padding: 2em;
+}
+
+.headDesc h2 {
+  font-size: 32px;
+}
+
+.headDesc p:last-child{
+  opacity: .8;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        font-size: 32px;
+    }
+
+    .image {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .content {
+        font-size: 28px;
+    }
+}
+

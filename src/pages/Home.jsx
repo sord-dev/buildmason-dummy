@@ -29,6 +29,11 @@ import Button from "../components/Button";
 
 // RESONSIVENESS!!!
 
+// change blue back to figma shade
+
+// add dropdown https://www.youtube.com/watch?v=IF6k0uZuypA
+
+// change hero component to the one in about section
 
 function Home() {
   return (
