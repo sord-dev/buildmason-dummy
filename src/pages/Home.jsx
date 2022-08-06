@@ -17,23 +17,17 @@ import Button from "../components/Button";
 
 //TODO
 
-// make testimonials customisable and responsive
+// make testimonials customisable
 
-// testimonial grid items 
-
-// add last cta at the bottom of the page
-
-// change thickness of navbar and possibly logo size (smaller)
-
-// add better content
-
-// RESONSIVENESS!!!
+// (mainly the hero) RESONSIVENESS!!!
 
 // change blue back to figma shade
 
-// add dropdown https://www.youtube.com/watch?v=IF6k0uZuypA
+// add dropdown to navbar https://www.youtube.com/watch?v=IF6k0uZuypA
 
 // change hero component to the one in about section
+
+// make buttons navigate you places
 
 function Home() {
   return (
