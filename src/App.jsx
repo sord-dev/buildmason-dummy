@@ -4,13 +4,12 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
+    <Layout>
       <Routes>
-      <Route element={<Layout />}>
-          <Route index route='/' element={<Home />} />
-      </Route>
+        <Route path="/" index element={<Home />} />
+        <Route path="/about" element={<h1>hello about</h1>} />
       </Routes>
-    </div>
+    </Layout>
   );
 }
 
