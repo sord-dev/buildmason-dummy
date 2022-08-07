@@ -63,6 +63,29 @@
   margin-bottom: 150px;
 }
 
+
+/* our team */
+
+.imageGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6em;
+}
+
+.imageGrid div {
+  border-radius: 5px;
+  width: 200px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.218);
+  
+}
+
+.team div {
+  margin-bottom: 2em;
+
+}
+
 @media only screen and (max-width: 600px) {
   .content {
     font-size: 32px;
