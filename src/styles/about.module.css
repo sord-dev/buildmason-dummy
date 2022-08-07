@@ -1,5 +1,6 @@
 .container {
   max-width: 960px;
+  padding: 2em;
   margin: 0 auto;
 }
 
@@ -15,8 +16,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  margin-bottom: 150px;
 }
 
 .content {
@@ -29,32 +28,53 @@
   color: white;
 }
 
-.headDesc {
-  padding: 2em;
+.stats_numbers p {
+  opacity: 0.8;
 }
 
-.headDesc h2 {
+.stats p,
+.status h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.stats h2 {
   font-size: 32px;
 }
 
-.headDesc p:last-child{
-  opacity: .8;
+.stats * {
+  text-align: center;
+  padding: 10px;
+}
 
+.stats_numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stats_numbers h3 {
+  font-size: 42px;
+  color: #b1fce7;
+}
+
+.image, .stats {
+  margin-bottom: 150px;
 }
 
 @media only screen and (max-width: 600px) {
-    .content {
-        font-size: 32px;
-    }
+  .content {
+    font-size: 32px;
+  }
 
-    .image {
-        height: 300px;
-    }
+  .image {
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    .content {
-        font-size: 28px;
-    }
+  .content {
+    font-size: 28px;
+  }
 }
-

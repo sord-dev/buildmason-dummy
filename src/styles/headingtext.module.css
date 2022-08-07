@@ -1,0 +1,11 @@
+.headDesc {
+    margin-bottom: 150px;
+}
+
+.headDesc h2 {
+    font-size: 32px;
+  }
+
+  .headDesc p:last-child {
+    opacity: 0.8;
+  }
