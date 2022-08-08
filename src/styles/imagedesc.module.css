@@ -1,7 +1,7 @@
 .about {
   margin: 150px 0;
   display: flex;
-  gap: 7px;
+  gap: 1em;
 }
 
 .about img {

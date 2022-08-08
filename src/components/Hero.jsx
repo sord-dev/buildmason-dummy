@@ -4,7 +4,6 @@ import styles from '../styles/hero.module.css'
 function Hero({ imgUrl, title, subtitle }) {
   return (
     <div className={styles.hero}>
-    <img src={imgUrl} alt="hero picture" />
 
     <div className={styles.hero_content}>
       <h1>{title}</h1>

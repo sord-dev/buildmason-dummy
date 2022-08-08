@@ -7,7 +7,7 @@ function ImageDesc({ title, content, ctaText, aboutImage, flip }) {
 
   return (
     <div className={`${styles.about} ${reverse(flip)} `}>
-      <img src={aboutImage} alt="" />
+      <img src={aboutImage} alt="about image" />
 
       <div>
         <h1>{title}</h1>

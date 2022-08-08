@@ -14,7 +14,7 @@ function Navbar() {
           <Link to={"/about"}>Who we are</Link>
           <Link to={"/contact"}>Contact</Link>
 
-          <Button text={'Get a Quote'} color={'secondary'} />
+          <Button text={'Get a Quote'} color={'primary'} />
         </div>
       </div>
     </div>
