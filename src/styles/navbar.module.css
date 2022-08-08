@@ -31,6 +31,10 @@
   font-size: 20px;
 }
 
+.nav_actions a:last-child {
+  font-size: inherit;
+}
+
 
 @media only screen and (max-width: 970px) {
   .nav_actions {
