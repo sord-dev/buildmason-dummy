@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import styles from '../styles/hero.module.css'
+import styles from '../styles/componentstyles/hero.module.css'
 
 function Hero({ title, subtitle }) {
   const navigate = useNavigate()

@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   background-image: linear-gradient(#fca17d6a, #fca17da3),
-    url("../assets/herophotounedited.png");
+    url("../../assets/herophotounedited.png");
   width: 100%;
   height: 750px;
   background-position: center;

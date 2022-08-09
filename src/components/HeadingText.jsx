@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/headingtext.module.css";
+import styles from "../styles/componentstyles/headingtext.module.css";
 
 function HeadingText({ title, subtitle, desc }) {
   return (

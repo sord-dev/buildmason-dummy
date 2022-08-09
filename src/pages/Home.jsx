@@ -22,7 +22,7 @@ import servicesImage from "../assets/services_image.jpg";
 
 // make buttons navigate you places
 
-//element spacing
+// element spacing
 
 function Home() {
   

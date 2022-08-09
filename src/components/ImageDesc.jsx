@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/imagedesc.module.css";
+import styles from "../styles/componentstyles/imagedesc.module.css";
 import Button from "../components/Button";
 
 function ImageDesc({ title, content, ctaText, aboutImage, flip, ctaLocation }) {

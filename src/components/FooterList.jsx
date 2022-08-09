@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styles from "../styles/footer.module.css";
+import styles from "../styles/componentstyles/footer.module.css";
 
 import {
   AiOutlineMail,

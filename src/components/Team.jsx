@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles/team.module.css'
+import styles from '../styles/componentstyles/team.module.css'
 import HeadingText from './HeadingText'
 
 function Team() {

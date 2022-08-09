@@ -1,6 +1,6 @@
 import React from 'react'
 import GridItem from './GridItem'
-import styles from '../styles/testimonials.module.css'
+import styles from '../styles/componentstyles/testimonials.module.css'
 
 function Testimonials() {
   return (

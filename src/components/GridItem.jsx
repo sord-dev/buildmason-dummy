@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/testimonials.module.css";
+import styles from "../styles/componentstyles/testimonials.module.css";
 
 function GridItem() {
   return (
