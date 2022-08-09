@@ -7,12 +7,11 @@ import styles from "../styles/home.module.css";
 import Hero from "../components/Hero";
 import ImageDesc from "../components/ImageDesc";
 import Testimonials from "../components/Testimonials";
-import Button from "../components/Button";
+import CTAMiddle from "../components/CTAMiddle";
 
 //images
 import aboutImage from "../assets/about-image.jpg";
 import servicesImage from "../assets/services_image.jpg";
-import CTAMiddle from "../components/CTAMiddle";
 
 //TODO
 
@@ -21,6 +20,8 @@ import CTAMiddle from "../components/CTAMiddle";
 // add dropdown to navbar https://www.youtube.com/watch?v=IF6k0uZuypA
 
 // element spacing
+
+// hover animations for buttons
 
 function Home() {
   return (

@@ -28,38 +28,7 @@
   color: white;
 }
 
-.stats_numbers p {
-  opacity: 0.8;
-}
-
-.stats p,
-.status h2 {
-  text-align: center;
-  padding: 10px;
-}
-
-.stats h2 {
-  font-size: 32px;
-}
-
-.stats * {
-  text-align: center;
-  padding: 10px;
-}
-
-.stats_numbers {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.stats_numbers h3 {
-  font-size: 42px;
-  color: #b1fce7;
-}
-
-.image, .stats {
+.image {
   margin-bottom: 150px;
 }
 
