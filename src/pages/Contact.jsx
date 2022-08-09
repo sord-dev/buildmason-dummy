@@ -4,27 +4,37 @@ import styles from "../styles/contact.module.css";
 // NOTE 
 // -- THIS FORM ISN'T FUNCTIONAL BECAUSE THIS IS A FICTIONAL COMPANY --
 
+
+// TODO 
+// IDEA - MAKE THE DIV A COMPONENT AND THEN PASS THE CONTENT AS PROPS
+// ADD LINKS TO EACH DIV
+// MAKE PAGE RESPONSIVE
+
 function Contact() {
   return (
     <div className={styles.contact}>
       <div className={styles.container}>
         <div className={styles.boxes}>
+
           <div>
             <h2>Phone</h2>
             <h3>02073619831</h3>
             <span>add link to the div</span>
           </div>
+
           <div>
             <h2>Email</h2>
             <h3>someone@somewhere.com</h3>
             <span>add link to the div</span>
           </div>
+
           <div>
             <h2>Location</h2>
             <h3>Random Postcode</h3>
             <p>Mon - Fri 6am till 9pm</p>
             <span>add link to the div</span>
           </div>
+
         </div>
 
         <div className={styles.form_container}>

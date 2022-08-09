@@ -21,7 +21,7 @@ import servicesImage from "../assets/services_image.jpg";
 
 // element spacing
 
-// hover animations for buttons
+// hover animations for hero buttons
 
 function Home() {
   return (

@@ -1,16 +1,19 @@
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    height: 100vh;
+    padding: 1em;
 
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
   .boxes {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
     gap: 30px;
     flex: 1;
   }
@@ -24,6 +27,7 @@
     border: 1px solid #FCA17D;
 
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     padding-top: 1em;
@@ -37,18 +41,20 @@
   .form_container {
     flex: 2;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .form_container form {
-    width: 700px;
-    height: 600px;
+    max-width: 700px;
+    max-height: 600px;
     padding: 1.5em;
 
     display: flex;
     gap: 15px;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 /* form title */
@@ -97,3 +103,68 @@
 .form_container form textarea:active {
     border-color: #7EFCE7;  
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .boxes {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .boxes > div {
+    width: 215px;
+    height: 190px;
+  }
+
+  .boxes {
+    font-size: .9em;
+  }
+  
+}
+
+@media only screen and (max-width: 700px) {
+    .boxes {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .boxes > div {
+      width: 190px;
+      height: 160px;
+    }
+  
+    .boxes {
+      font-size: .8em;
+    }
+    
+  }
+
+  @media only screen and (max-width: 475px) {
+
+    .boxes {
+        flex-direction: row;
+        justify-content: center;
+      }
+    
+      .boxes > div {
+        width: 120px;
+        height: 100px;
+      }
+    
+      .boxes {
+        font-size: .5em;
+      }
+
+   .form_container form input {
+    height: 40px;
+    width: 300px;
+    padding: 1.3em 1.6em;
+   }
+
+   .form_container form textarea {
+    height: 300px;
+    width: 300px;
+    padding: 1.6em;
+   }
+    
+  }
