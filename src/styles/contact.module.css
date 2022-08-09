@@ -44,8 +44,9 @@
     align-items: center;
 }
 
-.form_container form h1 {
-    margin-bottom: 40px;
+.form_container form h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
 }
 
 .form_container form input {
