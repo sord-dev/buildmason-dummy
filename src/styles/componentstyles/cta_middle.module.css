@@ -1,0 +1,23 @@
+.cta_middle {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4em;
+  }
+  
+  .cta_middle div {
+    margin: auto 0;
+  }
+  
+  .cta_middle div h2 {
+    font-weight: 600;
+    letter-spacing: .2px;
+  }
+  
+  .cta_middle div p {
+    margin: 3em;
+    font-size: 1.2em;
+    max-width: 450px;
+  }

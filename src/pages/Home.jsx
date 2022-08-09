@@ -12,25 +12,25 @@ import Button from "../components/Button";
 //images
 import aboutImage from "../assets/about-image.jpg";
 import servicesImage from "../assets/services_image.jpg";
-
+import CTAMiddle from "../components/CTAMiddle";
 
 //TODO
 
-// make testimonials better
+// make testimonials better - wip idea is to add array of testimonials that get's mapped over and displayed
 
 // add dropdown to navbar https://www.youtube.com/watch?v=IF6k0uZuypA
-
-// make buttons navigate you places
 
 // element spacing
 
 function Home() {
-  
   return (
     <div className={styles.home}>
-
-
-      <Hero title={"Fast and reliable contracting services"} subtitle={"We value Hardy designs, committed work and fast delivery. Get a quote today and have your dream house built within months."} />
+      <Hero
+        title={"Fast and reliable contracting services"}
+        subtitle={
+          "We value Hardy designs, committed work and fast delivery. Get a quote today and have your dream house built within months."
+        }
+      />
 
       <div className={styles.container}>
         <ImageDesc
@@ -39,7 +39,7 @@ function Home() {
             "Buildmason was established in 2017 by founding director Paulo Costa. With over 15 years of personal experience within the construction industry, his objective is to provide a building service that combines exceptional construction skills with professional and honest customer service."
           }
           ctaText={"Our Story"}
-          ctaLocation={'/about'}
+          ctaLocation={"/about"}
           aboutImage={aboutImage}
         />
 
@@ -51,18 +51,20 @@ function Home() {
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore  magna aliqua."
           }
           ctaText={"What we Offer"}
-          ctaLocation={'/services'}
+          ctaLocation={"/services"}
           aboutImage={servicesImage}
           flip
         />
 
-        <div className={styles.cta_middle}>
-        <div>
-          <h2>Need our Help?</h2>
-          <p>Get a quote from us for free and we&apos;ll see how we can get that dream project built.</p>
-          <Button location={'/'} text={'Get Free Quote'} color={'primary'}  />
-        </div>
-        </div>
+        <CTAMiddle
+          title={"Need our Help?"}
+          subtitle={
+            "Get a quote from us for free and we'll see how we can get that dream project built."
+          }
+          btntxt={"Get Free Quote"}
+          btnlocation={"/"}
+          btncolor={"primary"}
+        />
       </div>
     </div>
   );

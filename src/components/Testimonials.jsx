@@ -8,13 +8,13 @@ function Testimonials() {
           <h2>Don't take our word for it</h2>
 
           <div className={styles.grid}>
-            <GridItem />
+            <GridItem name={'name'} location={'location'} statement={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quis harum quas ipsam officiis laboriosam Explicabo repellendus illum voluptate voluptatem ab ea corrupti odio iusto fugit dolore. Possimus, magni nisi.'} />
 
-            <GridItem />
+            <GridItem name={'name'} location={'location'} statement={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quis harum quas ipsam officiis laboriosam Explicabo repellendus illum voluptate voluptatem ab ea corrupti odio iusto fugit dolore. Possimus, magni nisi.'} />
 
-            <GridItem />
+            <GridItem name={'name'} location={'location'} statement={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quis harum quas ipsam officiis laboriosam Explicabo repellendus illum voluptate voluptatem ab ea corrupti odio iusto fugit dolore. Possimus, magni nisi.'} />
 
-            <GridItem />
+            <GridItem name={'name'} location={'location'} statement={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quis harum quas ipsam officiis laboriosam Explicabo repellendus illum voluptate voluptatem ab ea corrupti odio iusto fugit dolore. Possimus, magni nisi.'} />
           </div>
         </div>
   )

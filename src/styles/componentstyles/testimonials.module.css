@@ -1,33 +1,44 @@
-
 .testimonials h2 {
-    line-height: 45px;
-    letter-spacing: 0.8px;
-    font-size: 36px;
-    font-weight: 600;
-    text-align: center;
-  }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    padding: 15px;
-    max-width: 800px;
-    margin: 33px auto;
-    justify-items: center;
-    gap: 3em;
-    grid-auto-columns: auto;
-  }
-  
-  .gridItem {
-      display: flex;
-      gap: 15px;
-      background-color: rgba(32, 29, 26, 0.1);
-      border-radius: 5px;
-      padding: 1em;
-  }
-  
-  .gridItem div:first-child {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
+  line-height: 45px;
+  letter-spacing: 0.8px;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  padding: 15px;
+  max-width: 800px;
+  margin: 33px auto;
+  justify-items: center;
+  gap: 3em;
+  grid-auto-columns: auto;
+}
+
+.gridItem {
+  display: flex;
+  border-radius: 5px;
+  background-color: rgba(32, 29, 26, 0.1);
+  gap: 15px;
+  padding: 1em;
+}
+
+.gridItem div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #fca17d;
+  background-image: url("../../assets/avatar.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

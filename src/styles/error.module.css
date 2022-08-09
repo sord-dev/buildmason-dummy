@@ -3,8 +3,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1em;
 }
 
 .error h1 {
     font-size: 3em;
+    text-align: center;
 }

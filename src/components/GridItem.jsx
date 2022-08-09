@@ -1,24 +1,21 @@
 import React from "react";
 import styles from "../styles/componentstyles/testimonials.module.css";
 
-function GridItem() {
+function GridItem({name, location, statement}) {
   return (
     <div className={styles.gridItem}>
       {/* left */}
       <div>
-        <span>icon</span>
-        <p>name</p>
-        <p>location</p>
+        <div className={styles.avatar}></div>
+        <p>{name}</p>
+        <p>{location}</p>
       </div>
 
       {/* right */}
 
       <div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quis harum
-          quas ipsam officiis laboriosam? Explicabo repellendus illum voluptate
-          voluptatem ab ea corrupti odio iusto fugit dolore. Possimus, magni
-          nisi.
+          {statement}
         </p>
       </div>
     </div>
