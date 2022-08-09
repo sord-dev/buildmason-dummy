@@ -6,7 +6,7 @@
     gap: 6em;
   }
   
-  .imageGrid div {
+  .imageGrid div div{
     border-radius: 5px;
     width: 200px;
     height: 250px;
@@ -14,8 +14,11 @@
     
   }
 
+  .imageGrid div h4 {
+    font-size: 1.2em;
+  }
+
 
 .team div {
-    margin-bottom: 2em;
-  
+    margin-bottom: .7em;
 }

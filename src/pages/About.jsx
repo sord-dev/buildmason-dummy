@@ -1,8 +1,13 @@
 import React from "react";
+
+//styles
+import styles from "../styles/about.module.css";
+
+//components
 import HeadingText from "../components/HeadingText";
 import Stats from "../components/Stats";
 import Team from "../components/Team";
-import styles from "../styles/about.module.css";
+import CTAMiddle from "../components/CTAMiddle"
 
 // TODO
 
@@ -30,6 +35,8 @@ function About() {
         <Stats />
 
         <Team />
+
+        <CTAMiddle title={'Still questioning?'} subtitle={'Before making any decicions get a quote and report for free.'} btnlocation={'/'} btntxt={'Get a Quote'} />
       </div>
     </div>
   );
